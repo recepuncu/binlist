@@ -16,7 +16,8 @@ if($debug){
 		'database_name' => 'gloparktools',
 		'server' => 'localhost',
 		'username' => 'root',
-		'password' => '123'
+		'password' => '123',
+		'charset' => 'utf8'
 	]);	
 } else {
 	$database = new Medoo\Medoo([
@@ -24,7 +25,8 @@ if($debug){
 		'database_name' => 'db602ccdea9530499caf60a8200067fc96',
 		'server' => '602ccdea-9530-499c-af60-a8200067fc96.mysql.sequelizer.com',
 		'username' => 'zlehuclwftemqcrv',
-		'password' => 'xzLvfuuxY6mNKNnBYUeB8ts4UkTYvdWnzJxuF26HfVAZ3UqEFQLZamYdhRH3JDcU'
+		'password' => 'xzLvfuuxY6mNKNnBYUeB8ts4UkTYvdWnzJxuF26HfVAZ3UqEFQLZamYdhRH3JDcU',
+		'charset' => 'utf8'
 	]);
 }
 
